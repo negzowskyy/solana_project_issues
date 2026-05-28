@@ -11,13 +11,15 @@
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.28.0",
+    "@coral-xyz/borsh": "^0.28.0",
     "@kamino-finance/klend-sdk": "^8.0.0",
     "@solana/wallet-adapter-react": "^0.15.39",
     "@solana/web3.js": "^1.98.4",
     "@solendprotocol/solend-sdk": "^0.14.27",
     "buffer": "^6.0.3",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "next": "16.2.6",
     "recharts": "^3.8.1",
     "vite-plugin-top-level-await": "^1.6.0",
     "vite-plugin-wasm": "^3.6.0"

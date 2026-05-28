@@ -9,7 +9,7 @@
     "confirmed"
   );
 
-  const reserve = "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo";
+  const reserve = "9wmqLq3n3KdQBbNfwqrF3PwcLgZ9edZ7hW5TsaC3o6uj";
   //test high-level scrapa z Kamino
   export default function App() {
     useEffect(() => {
