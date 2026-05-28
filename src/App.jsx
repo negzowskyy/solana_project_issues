@@ -15,7 +15,7 @@ export default function App() {
   useEffect(() => {
     async function run() {
 
-      const coder = new BorshAccountsCoder(idl.accounts[8]);
+      const coder = new BorshAccountsCoder(idl);
 
       const account = await connection.getAccountInfo(new PublicKey(reserve));
 
@@ -23,10 +23,10 @@ export default function App() {
         console.log("no account");
         return;
       }else{
-        console.log("account was found correctly")
+        console.log("account was found correctly");
       }
-
-      console.log(account, account.data)
+      
+      const decoded = coder.decode('reserve', account.data.slice(8));
 
     }
 
@@ -34,5 +34,5 @@ export default function App() {
   }, []);
 
 
-  return <div>{idl.toString()}</div>;
+  return <div></div>;
 }
