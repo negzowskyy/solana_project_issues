@@ -10,7 +10,7 @@ const connection = new Connection(
 );
 
 const reserve = "9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo";
-
+//test high-level scrapa z Kamino
 export default function App() {
   useEffect(() => {
     async function run() {
